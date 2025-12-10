@@ -12,5 +12,11 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
+  rabbitmq:
+    addresses: amqps://duck.lmq.cloudamqp.com
+    password: e3ws_ephf9PnM9yHozMellwU6AmpHepc
+    virtual-host: oahxupxa
+    username: oahxupxa
+
 server:
   port: 8080
